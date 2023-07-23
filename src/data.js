@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "JAPAN",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -9,6 +10,7 @@ export default [
         imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
+        id: 2,
         title: "Sydney Opera House",
         location: "AUSTRALIA",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -18,6 +20,7 @@ export default [
         imageUrl: "https://source.unsplash.com/JmuyB_LibRo"
     },
     {
+        id: 3,
         title: "Geirangerfjord",
         location: "NORWAY",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -27,6 +30,7 @@ export default [
         imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
     },
     {
+        id: 4,
         title: "Civic Tower",
         location: "NIGERIA",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -36,6 +40,7 @@ export default [
         imageUrl: "https://3.bp.blogspot.com/-eRxhfGBQX8g/WJx9Q0_ytqI/AAAAAAAAA6U/W585C7mHYMccFRLdJCuW_ARnC9CeBMr0ACLcB/s1600/01R-gen.jpg"
     },
     {
+        id: 5,
         title: "Zanzibar",
         location: "TANZANIA",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",

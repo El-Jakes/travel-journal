@@ -6,6 +6,7 @@ function App() {
   const cards = data.map(datum => {
     return (
       <Cards
+      key={datum.id} 
         datum={datum}
         />
     )
