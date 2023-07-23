@@ -1,10 +1,22 @@
-
+import Nav from "./components/Nav";
+import Cards from "./components/Cards";
+import data from './data'
 
 function App() {
+  const cards = data.map(datum => {
+    return (
+      <Cards
+        datum={datum}
+        />
+    )
+  })
+
   return (
     <div className="App">
-      <h1>Hello there!</h1>
-      <p>Welcome to my travel Journal</p>
+      <Nav />
+      <section className="cards-container">
+        {cards}
+      </section>
     </div>
   );
 }
