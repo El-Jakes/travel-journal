@@ -6,10 +6,10 @@ const Cards = (props) => {
     <div className='card'>
         <img className='card-img' src={props.datum.imageUrl} alt="Mountain Fuji" />
         <div className="info">
-            <div className="location">
+            <div className="card-location-container">
                 <div className="location-name-flex">
-                    <img className='location-img' src={location} alt="location icon" />
-                    <p className='country'>{props.datum.location}</p>
+                    <img className='card-location-img' src={location} alt="location icon" />
+                    <p className='card-country'>{props.datum.location}</p>
                 </div>
                 <a className='card-link' href={props.datum.googleMapsUrl}>View on Google Maps</a>
             </div>

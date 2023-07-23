@@ -42,10 +42,11 @@ section {
 .card-img {
   width: 125px;
   height: 168px;
+  object-fit: cover;
   border-radius: 5px;
 }
 
-.location {
+.card-location-container {
   display: flex;
   align-items: center;
   gap: 3.5em;
@@ -57,12 +58,12 @@ section {
   gap: 0.3em;
 }
 
-.location-img {
+.card-location-img {
   width: 8px;
   height: 12px;
 }
 
-.country {
+.card-country {
   width: 40px;
   color: #2b283a;
   font-size: 0.75rem;
